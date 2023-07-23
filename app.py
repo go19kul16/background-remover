@@ -1,7 +1,7 @@
 import streamlit as st
 from rembg import remove 
 from PIL  import Image
-
+from numba import njit,prange
 @st.cache_data
 def load_image(image_file):
     img=Image.open(image_file)
