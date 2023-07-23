@@ -1,7 +1,5 @@
 import streamlit as st
-import os
 from rembg import remove 
-
 from PIL  import Image
 
 @st.cache_data
