@@ -1,4 +1,4 @@
-
+numba==0.57.1
 numpy==1.23.5
 Pillow==10.0.0
 rembg==2.0.50
